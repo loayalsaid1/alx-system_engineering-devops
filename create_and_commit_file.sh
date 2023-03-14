@@ -13,7 +13,7 @@ vi "$1"
 
 # add shebang and blank line
 echo '#!/bin/bash' | cat - "$1" > temp && mv temp "$1"
-echo '' >> "$1"
+echo -n '' >> "$1"
 
 # add execute permission
 chmod +x "$1"
