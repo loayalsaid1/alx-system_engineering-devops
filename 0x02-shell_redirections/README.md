@@ -8,3 +8,6 @@ Shell redirections and filters project
 1-confused_smiley: Print confused smiley face
 1-confused_smiley: Print confused smiley face
 
+2-hellofile: Display the content of /etc/passwd file 
+2-hellofile: Display the content of /etc/passwd file 
+
