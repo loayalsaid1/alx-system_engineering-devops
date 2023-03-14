@@ -20,3 +20,6 @@ Shell redirections and filters project
 5-firstlines: print the first 10 lines of /etc/passwd
 5-firstlines: print the first 10 lines of /etc/passwd
 
+6-third_line: Print the 3rd line of a file
+6-third_line: Print the 3rd line of a file
+
