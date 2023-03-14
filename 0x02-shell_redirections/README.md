@@ -17,3 +17,6 @@ Shell redirections and filters project
 4-lastlines: print the last 10 lines of /etc/passwd file 
 4-lastlines: print the last 10 lines of /etc/passwd file 
 
+5-firstlines: print the first 10 lines of /etc/passwd
+5-firstlines: print the first 10 lines of /etc/passwd
+
