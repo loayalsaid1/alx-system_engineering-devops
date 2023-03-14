@@ -15,6 +15,9 @@ vi "$1"
 echo '#!/bin/bash' | cat - "$1" > temp && mv temp "$1"
 echo '' >> "$1"
 
+# add execute permission
+chmod +x "$1"
+
 # commit changes
 commit_message="Add $1"
 echo "$1: $2" >> "README.md"
@@ -28,4 +31,5 @@ echo "$1: $text" >> "README.md"
 git add "README.md"
 git commit --amend -m "$commit_message"
 git push -f
+
 
