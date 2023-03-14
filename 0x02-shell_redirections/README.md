@@ -11,3 +11,6 @@ Shell redirections and filters project
 2-hellofile: Display the content of /etc/passwd file 
 2-hellofile: Display the content of /etc/passwd file 
 
+3-twofiles: Display the content of files
+3-twofiles: Display the content of files
+
