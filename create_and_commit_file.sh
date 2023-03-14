@@ -12,13 +12,13 @@ touch "$1"
 vi "$1"
 
 # add shebang and blank line
-echo '#!/bin/bash' > "$1"
+echo '#!/bin/bash' | cat - "$1" > temp && mv temp "$1"
 echo '' >> "$1"
 
-# add file name to commit message and commit changes
+# commit changes
 commit_message="Add $1"
 echo "$1: $2" >> "README.md"
-git add "$1" "README.md"
+git add "README.md" "$1"
 git commit -m "$commit_message"
 git push
 
