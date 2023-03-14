@@ -28,8 +28,11 @@ git push
 # remove the file name from the text and append it to the README.md file
 text=${2/$1/}
 echo "$1: $text" >> "README.md"
+echo >> "README.md"  # add a new line
+
 git add "README.md"
 git commit --amend -m "$commit_message"
 git push -f
+
 
 
