@@ -23,3 +23,6 @@ Shell redirections and filters project
 6-third_line: Print the 3rd line of a file
 6-third_line: Print the 3rd line of a file
 
+7-file: Make a file with special characers
+7-file: Make a file with special characers
+
