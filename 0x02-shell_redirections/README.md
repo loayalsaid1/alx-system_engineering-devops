@@ -29,3 +29,6 @@ Shell redirections and filters project
 8-cwd_state: Insert the result of ls -al into a file
 8-cwd_state: Insert the result of ls -al into a file
 
+9-duplicate_last_line: the names answers!
+9-duplicate_last_line: the names answers!
+
