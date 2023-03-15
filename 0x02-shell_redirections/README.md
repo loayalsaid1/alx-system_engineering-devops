@@ -26,3 +26,6 @@ Shell redirections and filters project
 7-file: Make a file with special characers
 7-file: Make a file with special characers
 
+8-cwd_state: Insert the result of ls -al into a file
+8-cwd_state: Insert the result of ls -al into a file
+
