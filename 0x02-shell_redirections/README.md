@@ -32,3 +32,6 @@ Shell redirections and filters project
 9-duplicate_last_line: the names answers!
 9-duplicate_last_line: the names answers!
 
+10-no_more_js: Delete all the JS files
+10-no_more_js: Delete all the JS files
+
