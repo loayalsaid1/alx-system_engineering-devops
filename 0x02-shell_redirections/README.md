@@ -65,3 +65,6 @@ Shell redirections and filters project
 20-hiago: Delete C and c letters
 20-hiago: Delete C and c letters
 
+21-reverse: Reverse the input
+21-reverse: Reverse the input
+
