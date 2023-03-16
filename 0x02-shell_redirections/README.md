@@ -73,3 +73,6 @@ Shell redirections and filters project
 22-users_and_homes: print the (what eht title tells you, ha)
 
 
+100-empty_casks: Find empty files and directories
+100-empty_casks: Find empty files and directories
+
