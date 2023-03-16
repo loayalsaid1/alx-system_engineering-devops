@@ -44,3 +44,6 @@ Shell redirections and filters project
 13-unique: Print Unique lines
 13-unique: Print Unique lines
 
+14-findthatword: Find files have the WORD in their names
+14-findthatword: Find files have the WORD in their names
+
