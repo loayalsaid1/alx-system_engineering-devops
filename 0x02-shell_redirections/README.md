@@ -56,3 +56,6 @@ Shell redirections and filters project
 17-hidethisword: hide WORD files from the search 
 17-hidethisword: hide WORD files from the search 
 
+18-letteronly: search for files starting names with letters
+18-letteronly: search for files starting names with letters
+
