@@ -47,3 +47,6 @@ Shell redirections and filters project
 14-findthatword: Find files have the WORD in their names
 14-findthatword: Find files have the WORD in their names
 
+15-countthatword: Count how many lines contain this WORD 
+15-countthatword: Count how many lines contain this WORD 
+
