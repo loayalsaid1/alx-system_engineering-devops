@@ -62,3 +62,6 @@ Shell redirections and filters project
 19-AZ: replace letters in files
 19-AZ: replace letters in files
 
+20-hiago: Delete C and c letters
+20-hiago: Delete C and c letters
+
