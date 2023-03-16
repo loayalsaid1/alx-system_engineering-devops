@@ -53,3 +53,6 @@ Shell redirections and filters project
 16-whatsnext: Print 3 lines after the matching lines
 16-whatsnext: Print 3 lines after the matching lines
 
+17-hidethisword: hide WORD files from the search 
+17-hidethisword: hide WORD files from the search 
+
