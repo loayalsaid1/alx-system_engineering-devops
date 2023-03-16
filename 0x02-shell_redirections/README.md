@@ -68,3 +68,8 @@ Shell redirections and filters project
 21-reverse: Reverse the input
 21-reverse: Reverse the input
 
+22-users_and_homes: print the (what eht title tells you, ha)
+
+22-users_and_homes: print the (what eht title tells you, ha)
+
+
