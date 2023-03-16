@@ -35,3 +35,6 @@ Shell redirections and filters project
 10-no_more_js: Delete all the JS files
 10-no_more_js: Delete all the JS files
 
+11-directories: Count all of the directories and subdirectories in the current directories
+11-directories: Count all of the directories and subdirectories in the current directories
+
