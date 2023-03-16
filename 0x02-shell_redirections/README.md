@@ -59,3 +59,6 @@ Shell redirections and filters project
 18-letteronly: search for files starting names with letters
 18-letteronly: search for files starting names with letters
 
+19-AZ: replace letters in files
+19-AZ: replace letters in files
+
