@@ -50,3 +50,6 @@ Shell redirections and filters project
 15-countthatword: Count how many lines contain this WORD 
 15-countthatword: Count how many lines contain this WORD 
 
+16-whatsnext: Print 3 lines after the matching lines
+16-whatsnext: Print 3 lines after the matching lines
+
