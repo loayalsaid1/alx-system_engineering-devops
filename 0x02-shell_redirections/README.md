@@ -79,3 +79,6 @@ Shell redirections and filters project
 101-gifs: show empty gif files and other options
 101-gifs: show empty gif files and other options
 
+102-acrostic: encode with the first character of each line
+102-acrostic: encode with the first character of each line
+
