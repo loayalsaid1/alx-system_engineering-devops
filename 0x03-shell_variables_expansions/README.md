@@ -26,3 +26,6 @@
 8-true-knowledge: Add 128 to a variable
 8-true-knowledge: Add 128 to a variable
 
+9-divide_and_rule: Divide 2 variables(integers)
+9-divide_and_rule: Divide 2 variables(integers)
+
