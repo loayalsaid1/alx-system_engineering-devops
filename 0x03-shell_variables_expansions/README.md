@@ -35,3 +35,6 @@
 11-binar_to_decimal: Name is discriptive./create_and_commit_file.sh 10-love_exponent_breath Number
 11-binar_to_decimal: Name is discriptive./create_and_commit_file.sh 10-love_exponent_breath Number
 
+12-combinations: Make combinations
+12-combinations: Make combinations
+
