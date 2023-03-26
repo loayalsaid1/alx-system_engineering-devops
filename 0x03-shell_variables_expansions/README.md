@@ -44,3 +44,6 @@
 100-decimal_to_hexadecimal: Print decimal as hex
 100-decimal_to_hexadecimal: Print decimal as hex
 
+101-rot13: do the rot13 enctyption
+101-rot13: do the rot13 enctyption
+
