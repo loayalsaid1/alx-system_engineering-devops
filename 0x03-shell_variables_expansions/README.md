@@ -5,3 +5,6 @@
 1-hello_you: Pring hello USER
 1-hello_you: Pring hello USER
 
+2-path: Add value to PATH
+2-path: Add value to PATH
+
