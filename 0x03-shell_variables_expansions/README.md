@@ -23,3 +23,6 @@
 7-create_global_variable: Name tellsgit push
 7-create_global_variable: Name tellsgit push
 
+8-true-knowledge: Add 128 to a variable
+8-true-knowledge: Add 128 to a variable
+
