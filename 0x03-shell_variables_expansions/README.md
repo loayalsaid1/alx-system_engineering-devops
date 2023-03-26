@@ -11,3 +11,6 @@
 3-paths: Cound the number of occurece
 3-paths: Cound the number of occurece
 
+4-global_variables: show environment variables
+4-global_variables: show environment variables
+
