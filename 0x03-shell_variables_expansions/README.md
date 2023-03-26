@@ -14,3 +14,6 @@
 4-global_variables: show environment variables
 4-global_variables: show environment variables
 
+5-local_variables: Show all local and global variables
+5-local_variables: Show all local and global variables
+
