@@ -47,3 +47,6 @@
 101-rot13: do the rot13 enctyption
 101-rot13: do the rot13 enctyption
 
+102-odd: talk only the other lines
+102-odd: talk only the other lines
+
