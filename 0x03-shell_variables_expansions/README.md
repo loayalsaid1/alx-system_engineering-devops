@@ -20,3 +20,6 @@
 6-create_local_variable: Read the name./create_and_commit_file.sh 5-local_variables Show
 6-create_local_variable: Read the name./create_and_commit_file.sh 5-local_variables Show
 
+7-create_global_variable: Name tellsgit push
+7-create_global_variable: Name tellsgit push
+
