@@ -41,3 +41,6 @@
 122-prin-print_float: covert a number to float in printing
 122-prin-print_float: covert a number to float in printing
 
+100-decimal_to_hexadecimal: Print decimal as hex
+100-decimal_to_hexadecimal: Print decimal as hex
+
