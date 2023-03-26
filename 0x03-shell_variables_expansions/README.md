@@ -17,3 +17,6 @@
 5-local_variables: Show all local and global variables
 5-local_variables: Show all local and global variables
 
+6-create_local_variable: Read the name./create_and_commit_file.sh 5-local_variables Show
+6-create_local_variable: Read the name./create_and_commit_file.sh 5-local_variables Show
+
