@@ -29,3 +29,6 @@
 9-divide_and_rule: Divide 2 variables(integers)
 9-divide_and_rule: Divide 2 variables(integers)
 
+10-love_exponent_breath: Number to the power of the other
+10-love_exponent_breath: Number to the power of the other
+
