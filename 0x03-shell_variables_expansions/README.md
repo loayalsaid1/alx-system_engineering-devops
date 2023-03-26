@@ -8,3 +8,6 @@
 2-path: Add value to PATH
 2-path: Add value to PATH
 
+3-paths: Cound the number of occurece
+3-paths: Cound the number of occurece
+
