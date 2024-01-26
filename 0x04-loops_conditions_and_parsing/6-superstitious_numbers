@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# print number from 1 to 20 and 
+# After 4 print " bad luck form China
+# 9 ... Japan
+# 17 ... Italy
+
+
+count=1
+while [[ $count -le 20 ]]; do
+	echo "$count"
+	((count++))
+	case $count in
+		4)
+			echo "bad luck from China";;
+		9)
+			echo "bad luck from Japan";;
+		17)
+			echo "bad luck from Italy"
+	esac
+done
