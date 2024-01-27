@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Print proccess ID of itself
+
+echo "$$"
