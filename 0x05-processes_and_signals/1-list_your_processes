@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Print the proccess wiht hierarchy and user oriented format
+
+ps -u -a -x -f
