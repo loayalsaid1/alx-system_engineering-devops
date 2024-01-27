@@ -6,7 +6,10 @@ if [ $# -ne 1 ]; then
 	exit
 fi
 
-
+if [ -e "$1" ]; then
+	echo "File exists already"
+	exit
+fi
 echo "#!/usr/bin/env bash" > "$1"
 vi "$1"
 chmod +x "$1"
