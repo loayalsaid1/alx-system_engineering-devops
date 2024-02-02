@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# print list of files in the directory
+# buy without hte numeber and the dash '-' at the beggining
+
+
+
+for file in *; do
+	echo "$file" | cut -d '-' -f 2 
+done

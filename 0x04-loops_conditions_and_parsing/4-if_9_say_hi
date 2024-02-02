@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Use while loop and if to print "Best school" 10 times with 
+# extra string in the ninth tim
+
+count=0
+while [[ $count -lt 10 ]]; do
+	echo "Best School"
+	((count++))
+	if [[ $count -eq 9 ]]; then
+		echo "Hi"
+	fi
+done
