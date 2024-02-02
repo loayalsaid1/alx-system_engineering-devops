@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# print the processes information that have the word "bash"
-# shellcheck disable=SC2009
-
-ps -uafx | grep "bash"

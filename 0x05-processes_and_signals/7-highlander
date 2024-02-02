@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Just like 4, but trap the sigint
-
-trap 'echo "I am invincible!!!"' SIGTERM
-
-while true; do
-	echo "To infinity and beyond"
-	sleep 2
-done

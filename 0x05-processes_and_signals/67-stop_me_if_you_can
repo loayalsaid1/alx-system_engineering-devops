@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Send a kill signal to the 4-to_infinity_and_beyond process running in
-# another terminal
-
-pkill -f "7-highlander"

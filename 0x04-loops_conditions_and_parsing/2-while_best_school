@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# Display 10 times the string "best School"
-
-
-count=0
-while ((count < 10)); do
-	echo "Best School"
-	((count++))
-done
