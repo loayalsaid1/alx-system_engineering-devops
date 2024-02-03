@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# pritn the active ipv4 IPs
+
+
+ifconfig -a | awk '/inet / {print $4}'
