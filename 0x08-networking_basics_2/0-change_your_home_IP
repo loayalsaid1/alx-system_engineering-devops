@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Chnage the hosts file
+
+cp -f /etc/hosts ~/hosts.new
+echo -e "\n127.0.0.2\tlocalhost\n8.8.8.8\tfacebook.com\n" >> ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
