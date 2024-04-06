@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Install HAProxy load balancer and set it to run on the server
+sudo apt update
+# Install HAProxy
+
+sudo apt-get install -y haproxy
+
+# configure it to forword requests to my other 2 servesr
+text_to_append=$(cat << 'EOF'
+frontend haproxy-main
+        bind *:80
+        default_backend nginx_servers
+
+backend nginx_servers
+        balance roundrobin
+        server 329614-web-01 35.153.98.111:80 check
+        server 329614-web-02 35.175.65.23:80 check
+EOF
+)
+
+echo "$text_to_append" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
