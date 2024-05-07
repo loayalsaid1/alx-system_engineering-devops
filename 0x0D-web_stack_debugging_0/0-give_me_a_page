@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Install apache2
+
+sudo apt update
+sudo apt install apache2 apache2-doc apache2-utils
+sudo service apache2 start
