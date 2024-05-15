@@ -13,8 +13,8 @@ frontend haproxy-main
 
 backend nginx_servers
         balance roundrobin
-        server 329614-web-01 35.153.98.111:80 check
-        server 329614-web-02 35.175.65.23:80 check
+        server 329614-web-01 34.232.77.37:80 check
+        server 329614-web-02 18.210.13.191:80 check
 EOF
 )
 
