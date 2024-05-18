@@ -3,8 +3,8 @@
 # Get information about a subdomain of a domain
 
 function subdomain_info() {
-    dig_result=$(dig $2.$1 +noall +answer)
-    info=$(echo "$dig_result" | awk '{print $4, $5}')
+    dig_result=$(dig $2.$1)
+    info=$(echo "$dig_result" | awk '/ANSWER SECTION:/ {getline; print $4, $5}')
     echo "${info[@]}"
 }
 
@@ -17,7 +17,7 @@ subdomain=$2
 
 if [[ $subdomain ]]; then
     subdomains=("$subdomain")
-else 
+else
     subdomains=('www' 'lb-01' 'web-01' 'web-02')
 fi
 for sub in "${subdomains[@]}"; do
@@ -26,7 +26,3 @@ for sub in "${subdomains[@]}"; do
     message=$(final_message "$sub" "${info[0]}" "${info[1]}")
     echo "$message"
 done
- 
-    
-    
-    
