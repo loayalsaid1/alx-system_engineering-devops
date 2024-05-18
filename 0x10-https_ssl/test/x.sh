@@ -1,5 +1,6 @@
+$ cat 0-world_wide_web
 #!/usr/bin/env bash
-# shellcheck disable=SC2006
+# shellcheck disable=SC2086
 # Get information about a subdomain of a domain
 
 function subdomain_info() {
@@ -17,16 +18,13 @@ subdomain=$2
 
 if [[ $subdomain ]]; then
     subdomains=("$subdomain")
-else 
+else
     subdomains=('www' 'lb-01' 'web-01' 'web-02')
 fi
 for sub in "${subdomains[@]}"; do
     info=$(subdomain_info "$domain" "$sub")
-    info=($info)
+    info=("$info")
     message=$(final_message "$sub" "${info[0]}" "${info[1]}")
     echo "$message"
 done
- 
-    
-    
-    
+
