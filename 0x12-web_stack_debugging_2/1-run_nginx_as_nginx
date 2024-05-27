@@ -2,7 +2,6 @@
 # Make nginx listen to a specifc portna dn make it run 
 # with specific user
 sed -i 's/^user .*;/user nginx nginx;/g' /etc/nginx/nginx.conf
-chown -R nginx:nginx /var/log/nginx /var/lib/nginx /var/run/nginx
 sed -i 's/^listen  .*;/listen 8080;/g' /etc/nginx/sites-available/default
 nginx -s reload
 
