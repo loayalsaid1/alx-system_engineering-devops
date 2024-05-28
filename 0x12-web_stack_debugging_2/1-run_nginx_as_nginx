@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Make nginx listen to a specifc portna dn make it run 
 pkill apache2
+chmod 644 /etc/nginx/nginx.conf
 sed -i 's/80/8080/g' /etc/nginx/sites-available/default
 sed -i 's/#user .*;/user nginx;/' /etc/nginx/nginx.conf
-service nginx restart
+sudo -u nginx service nginx restart
