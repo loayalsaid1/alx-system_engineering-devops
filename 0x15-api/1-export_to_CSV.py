@@ -1,23 +1,28 @@
 #!/usr/bin/python3
 """Use an api"""
+import csv
 import requests
-import json
 import sys
-try:
+
+
+if __name__ == "__main__":
     user_id = sys.argv[1]
-except Exception:
-    exit()
 
-user = requests.get(f"https://jsonplaceholder.typicode.com/users/{user_id}")
-user = json.loads(user.text)
+    user_name = requests.get(
+        f"https://jsonplaceholder.typicode.com/users/{user_id}"
+        ).json().get('name')
 
-tasks = requests.get(
-    f"https://jsonplaceholder.typicode.com/users/{user_id}/todos")
-tasks = json.loads(tasks.text)
+    tasks = requests.get(
+                f"https://jsonplaceholder.typicode.com/users/{user_id}/todos"
+    ).json()
 
-with open('USER_ID.csv', 'w') as f:
-    name = user['name']
-    for task in tasks:
-        status = task['completed']
-        title = task['title']
-        f.write(f'"{user_id}", "{name}", "{status}", "{title}"\n')
+    with open("USER_ID.csv", "w") as f:
+        writer = csv.writer(f)
+        for task in tasks:
+            row = [
+                f"{user_id}",
+                f"{user_name}",
+                f"{task.get('completed')}",
+                f"{task.get('title')}"
+            ]
+            writer.writerow(row)
