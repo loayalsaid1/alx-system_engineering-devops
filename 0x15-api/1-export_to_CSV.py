@@ -10,19 +10,19 @@ if __name__ == "__main__":
 
     user_name = requests.get(
         f"https://jsonplaceholder.typicode.com/users/{user_id}"
-        ).json().get('name')
+        ).json().get('username')
 
     tasks = requests.get(
                 f"https://jsonplaceholder.typicode.com/users/{user_id}/todos"
     ).json()
 
-    with open("USER_ID.csv", "w") as f:
-        writer = csv.writer(f)
+    with open(f"{user_id}.csv", "w", newline='') as f:
+        writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         for task in tasks:
             row = [
-                f"{user_id}",
-                f"{user_name}",
-                f"{task.get('completed')}",
-                f"{task.get('title')}"
+                user_id,
+                user_name,
+                task.get('completed'),
+                task.get('title')
             ]
             writer.writerow(row)
